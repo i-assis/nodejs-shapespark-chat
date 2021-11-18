@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <script src='/socket.io/socket.io.js'></script>
+    <script type="module" src='assets/js/rtc.js'></script>
+    <script type="module" src='assets/js/events.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webrtc-adapter/7.3.0/adapter.min.js" integrity="sha256-2qQheewaqnZlXJ3RJRghVUwD/3fD9HNqxh4C+zvgmF4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.min.js'></script>
+    <script src='https://cdn.rawgit.com/yahoo/xss-filters/master/dist/xss-filters.js'></script>
+    <script src='assets/js/autolink.js'></script>
+    
+    <title>Original3D Meeting</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2 position-absolute bottom-0 left-0" style="margin-bottom: 15px; z-index:10;">
+          <div class="grid">
+            <div class="g-col-12">
+              <div class="card mt-3 p-5">
+                <div class="card-body">
+                  Meet
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12">
+              <div class="card mt-3 p-5">
+                <div class="card-body">
+                  Meet
+                </div>
+              </div>
+            </div>          
+            <div class="g-col-12">
+              <div class="card mt-3 p-5">
+                <div class="card-body">
+                  Meet
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12">
+              <div class="card mt-3 p-5">
+                <div class="card-body">
+                  Meet
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10">
+          <iframe class="" data-toggle="appear" data-animation="animated fadeIn"
+            src="https://show.original3d.com/contemporary89/"
+            style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0px; overflow:hidden; z-index:9;">
+            Your browser doesn't support iframes
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+</html>
